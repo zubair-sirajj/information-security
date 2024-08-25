@@ -118,6 +118,8 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
   - High Priority: LMS and VLE for academic continuity.
   - Medium Priority: Campus Network System for daily operations.
   - Lower Priority: Online Exams data.
+  - 
+![EduSecure](https://github.com/user-attachments/assets/efca1094-5a04-4514-8ee4-c8d8bac9b016)
 
 #### 2. What Can Go Wrong?
 - Examples of Identified Risks:
