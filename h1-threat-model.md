@@ -17,7 +17,7 @@ The core questions it raises are:
 - What are we going to do about it? – Deciding how to fix or reduce those risks.
 - Did we do a good enough job? – Checking if the fixes actually worked and improving where needed.
 
-Question: How can we blend continuous threat modeling into an agile development process without slowing everything down?
+#### Question: How can we blend continuous threat modeling into an agile development process without slowing everything down?
 
 ### 2. Shostack 2022: Welcome to the World's Shortest Threat Modeling Course
 
@@ -34,7 +34,7 @@ This course offers a concise introduction to threat modeling, covering:
 
 - Iterative Process: Emphasizes that threat modeling isn’t a one-time thing; it needs to keep evolving as things change.
 
-Question: What tools or strategies can help keep Data Flow Diagrams up to date in fast-changing environments?
+#### Question: What tools or strategies can help keep Data Flow Diagrams up to date in fast-changing environments?
 
 ### 3. OWASP CheatSheets Series Team 2021: Threat Modeling Cheat Sheet
 
@@ -52,7 +52,7 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
   - Use Tools: It’ll be easier if we use automated tools.
   - Regularity: We need to keep updating our threat model as the system changes.
 
-Question: How can any organization ensure that threat modeling is done consistently and effectively across all different teams?
+#### Question: How can any organization ensure that threat modeling is done consistently and effectively across all different teams?
 
 ## Infosec Scene: Darknet Diaries Podcast Episode Summary
 
@@ -71,7 +71,7 @@ Question: How can any organization ensure that threat modeling is done consisten
   - North Korea is getting really good at these big cyber heists, using advanced techniques to steal and launder cryptocurrency.
   - There’s a strong need to beef up defenses against phishing and social engineering, especially for crypto companies.
 
-Idea: Given how the Lazarus Group keeps changing their tactics, what more can cryptocurrency exchanges do to stay safe, and how will the attackers evolve in the future?
+#### Idea: Given how the Lazarus Group keeps changing their tactics, what more can cryptocurrency exchanges do to stay safe, and how will the attackers evolve in the future?
 
 ## a) Security Hygiene
 
@@ -93,7 +93,7 @@ Idea: Given how the Lazarus Group keeps changing their tactics, what more can cr
 - Monitor network activity to spot any suspicious behavior early.
 - Use antivirus, anti-malware, and endpoint security tools on all devices.
 
-Key Takeaway: It’s important to do basic security hygiene before getting into more complex threat modeling. These practices help prevent common attacks and make systems tougher against threats.
+#### Key Takeaway: It’s important to do basic security hygiene before getting into more complex threat modeling. These practices help prevent common attacks and make systems tougher against threats.
 
 ## b) Make-Believe Boogie-Man: A Threat Model for EduSecure Company
 
@@ -121,11 +121,11 @@ Key Takeaway: It’s important to do basic security hygiene before getting into 
 
 #### 2. What Can Go Wrong?
 - Examples of Identified Risks:
-  - Spoofing: Phishing attacks trick teacher/student into giving up their credentials, leading to unauthorized access – high priority.
+  - Spoofing: Phishing attacks trick teachers/students into giving up their credentials, leading to unauthorized access – high priority.
   - Tampering: Someone changes student grades or records without permission, leading to academic fraud – high priority.
   - Repudiation: Users deny actions like accessing or changing data – medium priority.
   - Information Disclosure: Someone unauthorized gets access to student records, exposing personal and financial info – high priority.
-  - Denial of Service: A DDoS attack might disrupt online classes and exams on the LMS or VLE – medium priority.
+  - Denial of Service: A DDoS attack might disrupt online classes and exams on the LMS or VLE- medium priority.
 
 - Targeted Threat Actors: Hackers, activists, insiders with bad intentions, and threats specific to the region.
 - Business Continuity: It’s important to protect data and keep educational resources available to maintain trust and the university’s reputation.
@@ -142,7 +142,7 @@ Risk Mitigation Strategies:
 
 #### 4. Did We Do a Good Enough Job?
 
-Continuous Evaluation: Regularly check security with audits, penetration testing, and ongoing threat modeling. Always work on improving the incident response plans and keep the threat model current.
+Continuous Evaluation: Regularly check security with audits, penetration testing, and ongoing threat modeling. Need to keep working on the incident response plans and keep the threat model current.
 
 ## References:
 1. Braiterman, E., Baca, M., et al. (2020). Threat Modeling Manifesto: https://www.threatmodelingmanifesto.org/ (Accessed 24 Aug. 2024).
