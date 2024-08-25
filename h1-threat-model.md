@@ -152,4 +152,4 @@ Continuous Evaluation: Regularly check security with audits, penetration testing
 3. OWASP CheatSheets Series Team (2021). Threat Modeling Cheat Sheet: https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html (Accessed 24 Aug. 2024).
 4. Rhysider, J. (2022). The Lazarus Heist. Darknet Diaries Podcast: https://darknetdiaries.com/episode/119/
 5. Academia (2022). IT infrastructure of university based on cloud computing: https://www.academia.edu/78888554/IT_infrastructure_of_university_based_on_cloud_computing (Accessed 24 Aug. 2024)
-6. OWASP (2021). OWASP Top 10 Security Practices: https://owasp.org/www-project-top-ten/ (Accessed 24 Aug. 
+6. OWASP (2021). OWASP Top 10 Security Practices: https://owasp.org/www-project-top-ten/ (Accessed 24 Aug. 2024)
