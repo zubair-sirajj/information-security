@@ -17,7 +17,7 @@ The core questions it raises are:
 - What are we going to do about it? – Deciding how to fix or reduce those risks.
 - Did we do a good enough job? – Checking if the fixes actually worked and improving where needed.
 
-#### Question: How can we blend continuous threat modeling into an agile development process without slowing everything down?
+**Question:** How can we blend continuous threat modeling into an agile development process without slowing everything down?
 
 ### 2. Shostack 2022: Welcome to the World's Shortest Threat Modeling Course
 
@@ -34,7 +34,7 @@ This course offers a concise introduction to threat modeling, covering:
 
 - **Iterative Process:** Emphasizes that threat modeling isn’t a one-time thing; it needs to keep evolving as things change.
 
-#### Question: What tools or strategies can help keep Data Flow Diagrams up to date in fast-changing environments?
+**Question:** What tools or strategies can help keep Data Flow Diagrams up to date in fast-changing environments?
 
 ### 3. OWASP CheatSheets Series Team 2021: Threat Modeling Cheat Sheet
 
@@ -52,7 +52,7 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
   - **Using Tools:** It’ll be easier if we use automated tools.
   - **Regularity:** We need to keep updating our threat model as the system changes.
 
-#### Question: How can any organization ensure that threat modeling is done consistently and effectively across all different teams?
+**Question:** How can any organization ensure that threat modeling is done consistently and effectively across all different teams?
 
 ## Infosec Scene: Darknet Diaries Podcast Episode Summary
 
@@ -71,7 +71,7 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
   - North Korea is getting really good at these big cyber heists, using advanced techniques to steal and launder cryptocurrency.
   - There’s a strong need to beef up defenses against phishing and social engineering, especially for crypto companies.
 
-#### Idea: Given how the Lazarus Group keeps changing their tactics, what more can cryptocurrency exchanges do to stay safe, and how will the attackers evolve in the future?
+**Idea:** Given how the Lazarus Group keeps changing their tactics, what more can cryptocurrency exchanges do to stay safe, and how will the attackers evolve in the future?
 
 ## a) Security Hygiene
 
@@ -93,7 +93,7 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
 - Monitor network activity to spot any suspicious behavior early.
 - Use antivirus, anti-malware, and endpoint security tools on all devices.
 
-#### Key Takeaway: It’s important to do basic security hygiene before getting into more complex threat modeling. These practices help prevent common attacks and make systems tougher against threats.
+**Key Takeaway:** It’s important to do basic security hygiene before getting into more complex threat modeling. These practices help prevent common attacks and make systems tougher against threats.
 
 ## b) Make-Believe Boogie-Man: A Threat Model for EduSecure Company
 
@@ -118,7 +118,7 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
   - **High Priority:** LMS and VLE for academic continuity.
   - **Medium Priority:** Campus Network System for daily operations.
   - **Lower Priority:** Online Exams data.
-  - 
+    
 ![EduSecure](https://github.com/user-attachments/assets/efca1094-5a04-4514-8ee4-c8d8bac9b016)
 
 #### 2. What Can Go Wrong?
