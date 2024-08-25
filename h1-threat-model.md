@@ -24,7 +24,7 @@ The core questions it raises are:
 This course offers a concise introduction to threat modeling, covering:
 
 - Key Concepts:
-  - Identifying Assets and Threats: Figuring out what you need to protect and what could go wrong.
+  - **Identifying Assets and Threats:** Figuring out what you need to protect and what could go wrong.
   - Attack Surface: Looking at where your system might be vulnerable to attacks.
   - Thinking Like an Attacker: Getting into the mindset of a hacker to find weaknesses before they do.
 
