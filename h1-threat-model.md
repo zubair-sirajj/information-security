@@ -25,14 +25,14 @@ This course offers a concise introduction to threat modeling, covering:
 
 - Key Concepts:
   - **Identifying Assets and Threats:** Figuring out what you need to protect and what could go wrong.
-  - Attack Surface: Looking at where your system might be vulnerable to attacks.
-  - Thinking Like an Attacker: Getting into the mindset of a hacker to find weaknesses before they do.
+  - **Attack Surface:** Looking at where your system might be vulnerable to attacks.
+  - **Thinking Like an Attacker:** Getting into the mindset of a hacker to find weaknesses before they do.
 
 - Data Flow Diagrams (DFDs):
   - Helps to see how data moves through a system.
   - Helps to identify potential vulnerabilities.
 
-- Iterative Process: Emphasizes that threat modeling isn’t a one-time thing; it needs to keep evolving as things change.
+- **Iterative Process:** Emphasizes that threat modeling isn’t a one-time thing; it needs to keep evolving as things change.
 
 #### Question: What tools or strategies can help keep Data Flow Diagrams up to date in fast-changing environments?
 
@@ -40,17 +40,17 @@ This course offers a concise introduction to threat modeling, covering:
 
 The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat sheet emphasizes starting simple, using tools to streamline the process, and making threat modeling a regular activity. It covers:
 
-- Steps in the Process:
-  - Identifying Assets: Figuring out what we need to protect.
-  - Creating an Architecture Overview: Mapping out the system components and how the data flows between them.
-  - Decomposing the Application: Breaking down the system to see where the control points are.
-  - Identifying Threats: Using methods like STRIDE to spot and rank risks.
-  - Mitigating Threats: Coming up with ways to reduce or get rid of the risks.
+- **Steps in the Process:**
+  - **Identifying Assets:** Figuring out what we need to protect.
+  - **Creating an Architecture Overview:** Mapping out the system components and how the data flows between them.
+  - **Decomposing the Application:** Breaking down the system to see where the control points are.
+  - **Identifying Threats:** Using methods like STRIDE to spot and rank risks.
+  - **Mitigating Threats:** Coming up with ways to reduce or get rid of the risks.
 
-- Best Practices:
-  - Start Simple: We need to focus on the most important parts first.
-  - Use Tools: It’ll be easier if we use automated tools.
-  - Regularity: We need to keep updating our threat model as the system changes.
+- **Best Practices:**
+  - **Starting Simple:** We need to focus on the most important parts first.
+  - **Using Tools:** It’ll be easier if we use automated tools.
+  - **Regularity:** We need to keep updating our threat model as the system changes.
 
 #### Question: How can any organization ensure that threat modeling is done consistently and effectively across all different teams?
 
@@ -58,16 +58,16 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
 
 ### Episode Chosen: Episode 119 - "The Lazarus Heist"
 
-- Overview:
+**- Overview:**
   - This episode talks about a series of cryptocurrency heists pulled off by the Lazarus Group, a North Korean cybercrime organization. Investigative journalist Geoff White explains how these hackers have been stealing huge amounts of digital assets from exchanges around the world.
   
-- Key Points:
+**- Key Points:**
   - The Lazarus Group used phishing to get access to Bitcoin wallet keys, stealing about $75 million.
   - They laundered the stolen crypto using complex methods like peel chains and mixing services, making it tough for investigators to trace.
   - The episode also covers other big heists, including the KuCoin hack ($275 million) and the Ronin Network attack ($625 million).
   - They didn’t just hack, they also used social engineering, like faking job applications to infiltrate companies.
 
-- Lessons Learned:
+**- Lessons Learned:**
   - North Korea is getting really good at these big cyber heists, using advanced techniques to steal and launder cryptocurrency.
   - There’s a strong need to beef up defenses against phishing and social engineering, especially for crypto companies.
 
@@ -98,49 +98,49 @@ The OWASP Cheat Sheet is a handy guide for practical threat modeling. The cheat 
 ## b) Make-Believe Boogie-Man: A Threat Model for EduSecure Company
 
 ### Company Overview:
-- Company Name: EduSecure Company
-- Industry: Tech Education and Traditional Education
-- Business Model: EduSecure Company helps universities with on-campus and online learning, focusing on protecting student data, keeping educational services up and running, and securing both physical and virtual infrastructures of the university.
+- **Company Name:** EduSecure Company
+- **Industry:** Tech Education and Traditional Education
+- **Business Model:** EduSecure Company helps universities with on-campus and online learning, focusing on protecting student data, keeping educational services up and running, and securing both physical and virtual infrastructures of the university.
 
 ### Threat Model Based on the Four Key Questions:
 
 #### 1. What Are We Working On?
-- Key Assets:
-  - Student Information System (SIS): Central repository for sensitive student records. This is the crown jewel.
-  - Learning Management System (LMS) and Virtual Learning Environment (VLE): Essential for delivering courses and keeping academic activities going.
-  - Campus Network: Provides internet access and secures university resources.
-  - Access Control Systems: Manages physical security on campus.
-  - Online Exams System: Ensures the security of online exams.
-  - Cloud-Based Storage: Secures all university data, including teacher-student records and course materials.
+**- Key Assets:**
+  - **Student Information System (SIS):** Central repository for sensitive student records. This is the crown jewel.
+  - **Learning Management System (LMS) and Virtual Learning Environment (VLE):** Essential for delivering courses and keeping academic activities going.
+  - **Campus Network:** Provides internet access and secures university resources.
+  - **Access Control Systems:** Manages physical security on campus.
+  - **Online Exams System:** Ensures the security of online exams.
+  - **Cloud-Based Storage:** Secures all university data, including teacher-student records and course materials.
 
-- Prioritization:
-  - Top Priority: SIS due to its sensitive data.
-  - High Priority: LMS and VLE for academic continuity.
-  - Medium Priority: Campus Network System for daily operations.
-  - Lower Priority: Online Exams data.
+**- Prioritization:**
+  - **Top Priority:** SIS due to its sensitive data.
+  - **High Priority:** LMS and VLE for academic continuity.
+  - **Medium Priority:** Campus Network System for daily operations.
+  - **Lower Priority:** Online Exams data.
   - 
 ![EduSecure](https://github.com/user-attachments/assets/efca1094-5a04-4514-8ee4-c8d8bac9b016)
 
 #### 2. What Can Go Wrong?
-- Examples of Identified Risks:
-  - Spoofing: Phishing attacks trick teachers/students into giving up their credentials, leading to unauthorized access – high priority.
-  - Tampering: Someone changes student grades or records without permission, leading to academic fraud – high priority.
-  - Repudiation: Users deny actions like accessing or changing data – medium priority.
-  - Information Disclosure: Someone unauthorized gets access to student records, exposing personal and financial info – high priority.
-  - Denial of Service: A DDoS attack might disrupt online classes and exams on the LMS or VLE- medium priority.
+**- Examples of Identified Risks:**
+  - **Spoofing:** Phishing attacks trick teachers/students into giving up their credentials, leading to unauthorized access – high priority.
+  - **Tampering:** Someone changes student grades or records without permission, leading to academic fraud – high priority.
+  - **Repudiation:** Users deny actions like accessing or changing data – medium priority.
+  - **Information Disclosure:** Someone unauthorized gets access to student records, exposing personal and financial info – high priority.
+  - **Denial of Service:** A DDoS attack might disrupt online classes and exams on the LMS or VLE- medium priority.
 
-- Targeted Threat Actors: Hackers, activists, insiders with bad intentions, and threats specific to the region.
-- Business Continuity: It’s important to protect data and keep educational resources available to maintain trust and the university’s reputation.
+- **Targeted Threat Actors:** Hackers, activists, insiders with bad intentions, and threats specific to the region.
+- **Business Continuity:** It’s important to protect data and keep educational resources available to maintain trust and the university’s reputation.
 
 #### 3. What Are We Going to Do About It?
 
-Risk Mitigation Strategies:
-- Reduce Attack Surface: Break up the network into smaller, secure segments.
-- Limit Entry Points: Use Multi-Factor Authentication (MFA) to secure logins.
-- Mitigate: Encrypt data, keep software up to date, and regularly train everyone on security.
-- Eliminate: Get rid of outdated systems that aren’t secure.
-- Transfer: Get cyber insurance to cover potential losses from attacks.
-- Accept: Allow minor disruptions that won’t affect critical operations.
+**Risk Mitigation Strategies:**
+- **Reduce Attack Surface:** Break up the network into smaller, secure segments.
+- **Limit Entry Points:** Use Multi-Factor Authentication (MFA) to secure logins.
+- **Mitigate:** Encrypt data, keep software up to date, and regularly train everyone on security.
+- **Eliminate:** Get rid of outdated systems that aren’t secure.
+- **Transfer:** Get cyber insurance to cover potential losses from attacks.
+- **Accept:** Allow minor disruptions that won’t affect critical operations.
 
 #### 4. Did We Do a Good Enough Job?
 
