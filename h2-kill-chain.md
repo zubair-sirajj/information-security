@@ -43,16 +43,16 @@ The paper discusses the evolving nature of cyber threats and the need for dynami
 This outlines the steps I took to install Debian 12 "Bookworm" on a Virtual Machine using Oracle VM VirtualBox on a Windows platform.
 
 ### System Specifications
-- " Host OS: " Windows
-- " Debian ISO: " debian-live-12.6.0-amd64-xfce.iso
+- **Host OS**: Windows
+- **Debian ISO**: debian-live-12.6.0-amd64-xfce.iso
 
 ![Screenshot (203)](https://github.com/user-attachments/assets/f2cb67e6-2a8c-419d-bc61-6774ffb8e16d)
 
 ### Steps to Install Debian
-"Open VirtualBox, Launch Application and Create Virtual Machine": I started by opening VirtualBox on my Windows computer. This prepared me to set up a new virtual environment. I clicked on "New" to create a new virtual machine.
+##### **Open VirtualBox, Launch Application and Create Virtual Machine**: I started by opening VirtualBox on my Windows computer. This prepared me to set up a new virtual environment. I clicked on "New" to create a new virtual machine.
 ![Screenshot (202)](https://github.com/user-attachments/assets/1e3a6003-1510-4849-ad1b-b3288057f9c5)
 
-I entered "Debian" as the name for the virtual machine to identify it easily. I also selected the Debian ISO file.
+##### I entered "Debian" as the name for the virtual machine to identify it easily. I also selected the Debian ISO file.
 
 ![Screenshot (204)](https://github.com/user-attachments/assets/e18c342b-0d2b-42ff-8bf6-4717c6a7dd60)
 
