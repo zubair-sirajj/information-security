@@ -52,12 +52,19 @@ This outlines the steps I took to install Debian 12 "Bookworm" on a Virtual Mach
 ##### **Open VirtualBox, Launch Application and Create Virtual Machine**: I started by opening VirtualBox on my Windows computer. This prepared me to set up a new virtual environment. I clicked on "New" to create a new virtual machine.
 ![Screenshot (202)](https://github.com/user-attachments/assets/1e3a6003-1510-4849-ad1b-b3288057f9c5)
 
-##### I entered "Debian" as the name for the virtual machine to identify it easily. I also selected the Debian ISO file.
+##### I entered "Debian" as the name for the virtual machine to identify it easily. I also selected the Debian ISO file. I also skiped Unattended Installation.
 
 ![Screenshot (204)](https://github.com/user-attachments/assets/e18c342b-0d2b-42ff-8bf6-4717c6a7dd60)
 
+##### **Base Memory**: I allocated 4096 MB of RAM to ensure the VM operates smoothly under various workloads.
+**CPU**: I allocated just 1 CPU to the virtual machine.
+
 ![Screenshot (205)](https://github.com/user-attachments/assets/8fd14b47-99d8-4e56-ba29-4ba6dccd1b05)
+
+##### I created a virtual hard disk and set the disk size to 20 GB
 ![Screenshot (206)](https://github.com/user-attachments/assets/c3fa9dbe-d468-48d7-ba7f-2d72881ca985)
+
+
 ![Screenshot (207)](https://github.com/user-attachments/assets/bbe946a5-5e45-43c2-9e52-3d7bceeb87f9)
 ![Screenshot (208)](https://github.com/user-attachments/assets/7e03161a-4c81-48a0-aa7c-f59a752d6ba5)
 ![Screenshot (209)](https://github.com/user-attachments/assets/33a41427-136a-43d5-8fd4-4f81278c2a00)
