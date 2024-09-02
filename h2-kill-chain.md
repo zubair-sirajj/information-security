@@ -1,10 +1,10 @@
 ## H2 Kill Chain
 
 ### Summary of "Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains"
-This paper introduces a proactive approach to cybersecurity called "Intelligence-Driven Computer Network Defense," based on the Cyber Kill Chain. This framework breaks down the stages of a cyberattack, helping defenders anticipate and disrupt hacker activities more effectively. It shifts focus from merely reacting to attacks to actively preventing them by understanding the tactics and strategies of hackers.
+The paper discusses a smarter way to protect computer networks called "Intelligence-Driven Computer Network Defense." It's based on the Cyber Kill Chain, which breaks down a hacker’s steps into specific stages. This approach moves away from just reacting when attacks happen to actively preparing and stopping attacks by understanding the hackers' moves.
 
 ### Advanced Persistent Threats (APT)
-APTs involve highly skilled adversaries who launch prolonged, targeted campaigns to steal critical economic, proprietary, or national security information. Traditional defenses like firewalls and antivirus software often prove ineffective against these sophisticated threats due to their reactive nature. The paper emphasizes the necessity of an intelligence-driven approach to identify and counter these threats.
+APT represents well-resourced and trained adversaries that conduct multi-year intrusion campaigns targeting highly sensitive economic, proprietary, or national security information. Traditional defenses like firewalls and antivirus software often prove ineffective against these sophisticated threats due to their reactive nature. The paper emphasizes the necessity of an intelligence-driven approach to identify and counter these threats.
 
 ### What is the Cyber Kill Chain?
 The Cyber Kill Chain model helps in understanding and defending against cyber attacks by detailing the sequence of steps an attacker follows:
