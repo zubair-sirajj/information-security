@@ -77,10 +77,10 @@ Then I just start it and it starts powering up.
 The boot menu is showed and from there I select the Live System to boot into a live session of Debian
 ![Screenshot (210)](https://github.com/user-attachments/assets/bddbd969-66d2-48b5-b4ad-0d56d0e78d2f)
 
-Now it shows an error message, 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. I think this happened because the virtual machine (VM) I used does not support 64-bit architecture.
+Now it shows an error message, 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. I came to know that this could happen if the virtual machine (VM) used does not support 64-bit architecture.
 ![Screenshot (211)](https://github.com/user-attachments/assets/28fd2a6d-cd45-471a-b633-d842ae16a6b6) 
 
-I will upgrade it to 64-bit architecture, but I want to try installing the 32-bit Debian.  
+I will upgrade it to 64-bit architecture as it offers better compatibility with modern software and better performance. But I am interested in installing the 32-bit Debian as well.  
 ![Screenshot (213)](https://github.com/user-attachments/assets/b0a81768-4331-4f84-8cbf-0a2191c6194e)
 ![Screenshot (214)](https://github.com/user-attachments/assets/21acd49a-baee-4a91-933c-1553ef66455d)
 ![Screenshot (215)](https://github.com/user-attachments/assets/e3edd18f-8ba1-4ab5-835b-c7f60e339562)
@@ -88,3 +88,7 @@ I will upgrade it to 64-bit architecture, but I want to try installing the 32-bi
 ![Screenshot (217)](https://github.com/user-attachments/assets/f3b59102-7d40-49fe-8e88-7268ef2b860d)
 ![Screenshot (218)](https://github.com/user-attachments/assets/1418bdb8-ff69-4e7a-968c-d39e3e9ed674)
 ![Screenshot (219)](https://github.com/user-attachments/assets/66e1ba0e-3534-4e25-9015-372660cb6034)
+
+I have followed the same process, but just given a different name 'Debian Tero'. But when I try to run, it doesn't have a live version to run. I think that the way we can use Linux without installing it by using the live version is great. I came to know that the live version only comes with the 64-bit architecture. So I don't think using 32-bit Debian architecture is very compatible to use. 
+
+
