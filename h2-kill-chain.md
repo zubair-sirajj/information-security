@@ -36,14 +36,15 @@ The paper discusses the evolving nature of cyber threats and the need for dynami
 - **Insight**: This paper suggests a shift in how we think about cybersecurity, advocating for a proactive stance where organizations try to predict and counteract hacker actions before any damage occurs.
 - **Question**: With the rise of AI and other advanced technologies, how should the Cyber Kill Chain be updated to address these increasingly sophisticated cyber threats?
 
-
+### Reference:
+1. Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains: https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf 
 
 ## a) Bookworm. Install Debian 12-Bookworm Linux, in a virtual machine in VirtualBox:
 
 
-
-![Screenshot (202)](https://github.com/user-attachments/assets/1e3a6003-1510-4849-ad1b-b3288057f9c5)
 ![Screenshot (203)](https://github.com/user-attachments/assets/f2cb67e6-2a8c-419d-bc61-6774ffb8e16d)
+![Screenshot (202)](https://github.com/user-attachments/assets/1e3a6003-1510-4849-ad1b-b3288057f9c5)
+
 ![Screenshot (204)](https://github.com/user-attachments/assets/e18c342b-0d2b-42ff-8bf6-4717c6a7dd60)
 ![Screenshot (205)](https://github.com/user-attachments/assets/8fd14b47-99d8-4e56-ba29-4ba6dccd1b05)
 ![Screenshot (206)](https://github.com/user-attachments/assets/c3fa9dbe-d468-48d7-ba7f-2d72881ca985)
