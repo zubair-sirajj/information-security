@@ -42,9 +42,9 @@ The paper discusses the evolving nature of cyber threats and the need for dynami
 ## a) Bookworm. Install Debian 12-Bookworm Linux, in a virtual machine in VirtualBox:
 This outlines the steps I took to install Debian 12 "Bookworm" on a Virtual Machine using Oracle VM VirtualBox on a Windows platform.
 
-#### System Specifications
-- "Host OS:" Windows
-- "Debian ISO:" debian-live-12.6.0-amd64-xfce.iso
+### System Specifications
+- " Host OS: " Windows
+- " Debian ISO: " debian-live-12.6.0-amd64-xfce.iso
 
 ![Screenshot (203)](https://github.com/user-attachments/assets/f2cb67e6-2a8c-419d-bc61-6774ffb8e16d)
 
