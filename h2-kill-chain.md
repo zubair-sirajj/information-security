@@ -69,18 +69,23 @@ I get a summery of everything I selected and I click 'Finish'.
 ![Screenshot (207)](https://github.com/user-attachments/assets/bbe946a5-5e45-43c2-9e52-3d7bceeb87f9)
 
 Now it's ready to start.
+
 ![Screenshot (208)](https://github.com/user-attachments/assets/7e03161a-4c81-48a0-aa7c-f59a752d6ba5)
 
 Then I just start it and it starts powering up.
+
 ![Screenshot (209)](https://github.com/user-attachments/assets/33a41427-136a-43d5-8fd4-4f81278c2a00)
 
-The boot menu is showed and from there I select the Live System to boot into a live session of Debian
+The boot menu is shown and from there I select the Live System to boot into a live session of Debian
+
 ![Screenshot (210)](https://github.com/user-attachments/assets/bddbd969-66d2-48b5-b4ad-0d56d0e78d2f)
 
 Now it shows an error message, 'This kernel requires an x86-64 CPU, but only detected an i686 CPU. I came to know that this could happen if the virtual machine (VM) used does not support 64-bit architecture.
+
 ![Screenshot (211)](https://github.com/user-attachments/assets/28fd2a6d-cd45-471a-b633-d842ae16a6b6) 
 
 I will upgrade it to 64-bit architecture as it offers better compatibility with modern software and better performance. But I am interested in installing the 32-bit Debian as well.  
+
 ![Screenshot (213)](https://github.com/user-attachments/assets/b0a81768-4331-4f84-8cbf-0a2191c6194e)
 ![Screenshot (214)](https://github.com/user-attachments/assets/21acd49a-baee-4a91-933c-1553ef66455d)
 ![Screenshot (215)](https://github.com/user-attachments/assets/e3edd18f-8ba1-4ab5-835b-c7f60e339562)
