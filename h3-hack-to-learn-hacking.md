@@ -57,6 +57,13 @@ To test packet loss, I disconnected my internet connection and I ran both comman
 With the network disabled, the output showed 100% packet loss, indicating that the system couldn’t send or receive packets. This confirmed that the network was down. To stop the ping command, I used Ctrl + C.
 I also tried the commands with the network connected and the output showed 0% packet loss, indicating that the system was successfully connected to the network. 
 
+## References:
+- Nilsson, M. (2024). How CSPM Can Help to Secure Your Cloud and Avoid Configuration Disasters. Disobey 2024. YouTube: https://www.youtube.com/watch?v=binozoaOpOM&list=PLLvAhAn5sGfiB9AlEt2KD7H9Dnr6kbd64&index=2 (Accessed 8 Sept. 2024).
+- Karvinen, T. (2020). Command Line Basics Revisited: https://terokarvinen.com/2020/command-line-basics-revisited/ (Accessed 8 Sept. 2024).
+- WikiHow (2024). How to Use SSH: https://www.wikihow.com/Use-SSH (Accessed 8 Sept. 2024).
+- OverTheWire (2024). Bandit Wargame: https://overthewire.org/wargames/bandit/ (Accessed 8 Sept. 2024).
+
+
 
 
 
