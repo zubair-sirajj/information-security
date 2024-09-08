@@ -61,7 +61,7 @@ For this level, the password was stored in a human-readable file in the inhere d
 ![7](https://github.com/user-attachments/assets/d8b8341f-adbf-4379-9855-30ce0d6ebc6c)
 
 ## b) Can't Fish: 
-To test packet loss, I disconnected my internet connection and I ran both command to check connectivity, 'ping 1.1.1.1' (Cloudfare DNS server) and 'ping 8.8.8.8' (Google DNS server).
+To test packet loss, I disconnected my internet connection and I ran both command to check connectivity, 'ping 1.1.1.1' (Cloudfare DNS server) and 'ping 8.8.8.8' (Google DNS server). The ping shows destination IP, amount of data sent and the time taken.
 With the network disabled, the output showed 100% packet loss, indicating that the system couldn’t send or receive packets. This confirmed that the network was down. To stop the ping command, I used `Ctrl + C`.
 ![8](https://github.com/user-attachments/assets/a918095b-a1a4-4ac1-a2ba-eb729e1b4b48)
 
