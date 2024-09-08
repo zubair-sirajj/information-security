@@ -69,13 +69,19 @@ I also tried the commands with the network connected and the output showed 0% pa
 
 
 ## c)  Local Only
+First, I installed nmap using the command: sudo apt-get install nmap and then, I scanned my local system by running: nmap localhost
 ![10](https://github.com/user-attachments/assets/2eab80b9-98a4-4667-a8ec-8480e08df972)
 ![11](https://github.com/user-attachments/assets/da8f3b69-822e-405c-8ba5-6621d1a96a83)
+The output showed that ports 22 (SSH), 25 (SMTP), and 631 (IPP) were open, while the remaining 997 common TCP ports were closed. This indicates that there are only a few services running on my local machine before installing any new services.
 
 ## d) Daemon
+I installed the Apache2 server using the following commands: sudo apt-get install apache2. After starting Apache2, I ran nmap again and this time, port 80 (HTTP) was open, in addition to ports 22, 25, and 631. The addition of port 80 indicates that the Apache web server is running, showing the difference in open ports after installing the daemon.
 
 ![12](https://github.com/user-attachments/assets/eb745861-f1b7-4e4f-9ffb-8cd4be6d4485)
 ![13](https://github.com/user-attachments/assets/21bee26a-6e9f-4c6d-a532-4917235dd34c)
+
+So we can come to conclusion that without Apache2, only SSH, SMTP, and IPP were running and after installing and starting Apache2, port 80 opened up for HTTP traffic, illustrating the addition of services impacts the system's network exposure.
+
 ## References:
 - Nilsson, M. (2024). How CSPM Can Help to Secure Your Cloud and Avoid Configuration Disasters. Disobey 2024. YouTube: https://www.youtube.com/watch?v=binozoaOpOM&list=PLLvAhAn5sGfiB9AlEt2KD7H9Dnr6kbd64&index=2 (Accessed 8 Sept. 2024).
 - Karvinen, T. (2020). Command Line Basics Revisited: https://terokarvinen.com/2020/command-line-basics-revisited/ (Accessed 8 Sept. 2024).
