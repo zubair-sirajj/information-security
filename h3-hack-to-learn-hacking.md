@@ -71,7 +71,7 @@ I also tried the commands with the network connected and the output showed 0% pa
 
 ## c)  Local Only
 First, I installed nmap using the command: sudo apt-get install nmap and then, I scanned my local system by running: nmap localhost
-![10](https://github.com/user-attachments/assets/2eab80b9-98a4-4667-a8ec-8480e08df972)
+![10](https://github.com/user-attachments/assets/2eab80b9-98a4-4667-a8ec-8480e08df972) Before that I disconnected the internet.
 The output showed that ports 22 (SSH), 25 (SMTP), and 631 (IPP) were open, while the remaining 997 common TCP ports were closed. This indicates that there are only a few services running on my local machine before installing any new services.
 ![11](https://github.com/user-attachments/assets/da8f3b69-822e-405c-8ba5-6621d1a96a83)
 
