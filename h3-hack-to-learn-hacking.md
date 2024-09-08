@@ -68,7 +68,14 @@ I also tried the commands with the network connected and the output showed 0% pa
 ![9](https://github.com/user-attachments/assets/d6d68b32-c48c-401a-b22a-0b2ab649751a)
 
 
+## c)  Local Only
+![10](https://github.com/user-attachments/assets/2eab80b9-98a4-4667-a8ec-8480e08df972)
+![11](https://github.com/user-attachments/assets/da8f3b69-822e-405c-8ba5-6621d1a96a83)
 
+## d) Daemon
+
+![12](https://github.com/user-attachments/assets/eb745861-f1b7-4e4f-9ffb-8cd4be6d4485)
+![13](https://github.com/user-attachments/assets/21bee26a-6e9f-4c6d-a532-4917235dd34c)
 ## References:
 - Nilsson, M. (2024). How CSPM Can Help to Secure Your Cloud and Avoid Configuration Disasters. Disobey 2024. YouTube: https://www.youtube.com/watch?v=binozoaOpOM&list=PLLvAhAn5sGfiB9AlEt2KD7H9Dnr6kbd64&index=2 (Accessed 8 Sept. 2024).
 - Karvinen, T. (2020). Command Line Basics Revisited: https://terokarvinen.com/2020/command-line-basics-revisited/ (Accessed 8 Sept. 2024).
