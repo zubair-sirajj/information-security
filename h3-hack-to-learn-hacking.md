@@ -1,6 +1,6 @@
 # Hack to Learn Hacking
 
-## X) Read/watch/listen and summarize:
+## X) Read/Watch/Listen and Summarize:
 
 ### Disobey 2024: How CSPM Can Help to Secure Your Cloud and Avoid Configuration Disasters
 **Presenter**: Mikael Nilsson, Product Security Lead at SAS Institute  
