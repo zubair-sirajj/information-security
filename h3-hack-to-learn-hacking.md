@@ -27,7 +27,7 @@ Here, the dollar sign (`$`) indicates the user prompt, and the hash mark (`#`) i
 
 #### **Bandit Level 0**
 I started by opening the terminal in my Debian system. I used the following command to log in via SSH:
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+'ssh bandit0@bandit.labs.overthewire.org -p 2220'
 The password for level 0 is bandit0. 
 ![1](https://github.com/user-attachments/assets/605e7d78-3f85-4c66-a95e-afeb4347e762)
 
