@@ -94,6 +94,66 @@ I will upgrade it to 64-bit architecture as it offers better compatibility with 
 ![Screenshot (218)](https://github.com/user-attachments/assets/1418bdb8-ff69-4e7a-968c-d39e3e9ed674)
 ![Screenshot (219)](https://github.com/user-attachments/assets/66e1ba0e-3534-4e25-9015-372660cb6034)
 
-I have followed the same process, but just given a different name 'Debian Tero'. But when I try to run, it doesn't have a live version to run. I think that the way we can use Linux without installing it by using the live version is great. I came to know that the live version only comes with the 64-bit architecture. So I don't think using 32-bit Debian architecture is very compatible to use. 
+I have followed the same process, but just given a different name 'Debian Tero'. But when I try to run, it doesn't have a live version to run. I think that the way we can use Linux without installing it by using the live version is great. I learned that the live version only comes with 64-bit architecture. So I don't think using 32-bit Debian architecture is very compatible to use. 
 
+It came to my attention that using both Ubuntu and Debian in the same VM might cause some issues. So I clear everything from the VM and started the whole process again. 
 
+![1](https://github.com/user-attachments/assets/e03ff18d-537c-4883-bd25-a2dbaee9018d)
+
+This time I downloaded the most updated Debian live ISO 'debian-live-12.7.0-amd64-xfce'. 'amd64' means it is for 64-bit architecture.
+I chose xfce because it’s lightweight and easy to use.
+
+I clicked on 'New' and here’s how I set it up:
+
+- Name: I named it DebianTero.
+- Type: I selected Linux.
+- Version: I chose Debian (64-bit).
+![2](https://github.com/user-attachments/assets/e7212377-7f41-4cd2-aaf6-057530528413)
+
+- Memory Size: I allocated 4000 MB of RAM to the virtual machine and allocated 2 CPU to the processor.
+  ![3](https://github.com/user-attachments/assets/f6fd25b0-c3ab-4e97-84f2-13fa619a9cad)
+ 
+- Hard Disk: I selected "Create a virtual hard disk now" and allocated 20GB.
+  ![4](https://github.com/user-attachments/assets/c73229b1-f9e0-44a5-9541-248519f2a050)
+
+I was shown a summary of everything I've selected and when I clicked 'Finish', the process was completed.
+![5](https://github.com/user-attachments/assets/03ba6c50-bb5a-4941-bd27-9518c0f08df4)
+
+Once I had my virtual machine ready, it was time to load the Debian ISO. Here’s what I did:
+
+I selected my virtual machine in VirtualBox and clicked Settings.
+![6](https://github.com/user-attachments/assets/2f4e0a4d-f3e2-4499-8b7d-db212e0e784d)
+
+Then, I went to the Storage tab.
+Under Controller: IDE, I selected the Empty CD/DVD icon.
+On the right, I clicked the small CD icon next to Optical Drive and selected Choose a Virtual Optical Disk File.
+From there, I located the Debian ISO I downloaded and loaded it into the virtual machine.
+![7](https://github.com/user-attachments/assets/5bfd9304-68ab-417c-a171-9ab554a9f11d)
+![8](https://github.com/user-attachments/assets/843cfceb-4901-437a-994e-b8a7a25ba888)
+
+With everything set, I started the virtual machine by clicking 'Start' in VirtualBox.
+![9](https://github.com/user-attachments/assets/98b22206-952a-468f-9806-a044bff61759)
+
+The bootloader appeared, and I chose the Live option. This mode lets you use Debian without installing it, so I could test things out before committing.
+![10](https://github.com/user-attachments/assets/9681f3b2-2109-4fb5-8b69-a3c50df53b0d)
+
+In Live mode, I checked to make sure everything was working. I opened a web browser from the Applications menu, searched my name and confirmed that my mouse, keyboard, and network were all functioning correctly.
+![11](https://github.com/user-attachments/assets/a50d47de-60b6-4434-aabc-a858fe871f63)
+
+![16](https://github.com/user-attachments/assets/a249e9ab-3e41-42d6-934e-ec5bd88f17e0)
+
+Once I was satisfied with the Live environment, I moved ahead with the installation. There was a convenient Install Debian icon right on the desktop. Here’s what I did:
+
+I double-clicked the 'Install Debian' icon on the desktop and went through the following steps in the installer:
+- Language: I chose US English.
+- Location: I selected Europe and then Helsinki for the time zone.
+- Keyboard: I chose the English Default keyboard layout.
+- Partitions: I selected "Erase disk" for a clean installation.
+- Boot Loader: I installed it on the Master Boot Record (MBR).
+- User Setup: I entered my name, username, and password.
+
+After filling out all the necessary information, I clicked Install. The installation took about 10 minutes. Once it was done, I made sure to remove the ISO file by unmounting it from the virtual CD/DVD drive before rebooting.
+
+![12](https://github.com/user-attachments/assets/3566090e-5ef7-4fc9-a5d8-fbdd355a8ae1)
+
+After the reboot, I logged into DebianTero using the username and password I had created and the process was completed.
