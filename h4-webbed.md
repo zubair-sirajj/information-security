@@ -8,6 +8,7 @@ This category has climbed up in priority from fifth to first, reflecting its inc
 **Common Vulnerabilities**:
   - Elevation of privilege.
   - Users access data or perform actions outside of their permissions.
+    
   **Strategies for Prevention**:
   - Enforce access controls in server-side logic.
   - Adopt a default-deny framework that only permits access to authorized functionalities.
@@ -19,6 +20,7 @@ This risk stems from improper system configurations, often leading to unnecessar
   - Unprotected files and directories.
   - Default accounts with unchanged passwords.
   - Outdated software.
+    
 **Preventive Measures**:
   - Regular audits of security configurations and settings.
   - Removal of unused features, frameworks, accounts, and privileges.
