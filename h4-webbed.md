@@ -1,1 +1,55 @@
+# h4 Webbed
+## x) Read and Summarize 
+## OWASP: OWASP 10 2021
+The Open Web Application Security Project (OWASP) Top 10 list is an essential framework for understanding the most critical security risks to web applications. Developers and security teams can significantly mitigate potential threats by addressing these vulnerabilities. 
 
+### A01:2021 – Broken Access Control
+This category has climbed up in priority from fifth to first, reflecting its increased prevalence in security breaches where improper access control mechanisms allow attackers to bypass authorization safeguards. Often, broken access control allows unauthorized users to access admin panels or APIs that should require higher privilege levels.
+**Common Vulnerabilities**:
+  - Elevation of privilege.
+  - Users access data or perform actions outside of their permissions.
+  **Strategies for Prevention**:
+  - Enforce access controls in server-side logic.
+  - Adopt a default-deny framework that only permits access to authorized functionalities.
+  - Implement multi-factor authentication to minimize the risk of unauthorized access.
+
+### A05:2021 – Security Misconfiguration
+This risk stems from improper system configurations, often leading to unnecessary data exposure. This has also moved from the sixth position to the fifth. Misconfigurations such as leaving default settings unchanged or enabling unnecessary features and services can expose systems to attackers, as seen in numerous incidents where databases were left unprotected and publicly accessible on the internet.
+**Typical Misconfigurations**:
+  - Unprotected files and directories.
+  - Default accounts with unchanged passwords.
+  - Outdated software.
+**Preventive Measures**:
+  - Regular audits of security configurations and settings.
+  - Removal of unused features, frameworks, accounts, and privileges.
+  - Continuous updates and patches applied to all software components.
+
+### A06:2021 – Vulnerable and Outdated Components
+It was second in the Top 10 community survey/ Utilizing components with known vulnerabilities is a prevalent issue that often leads to severe data breaches or system takeovers. Using outdated libraries or frameworks can expose applications to vulnerabilities that attackers actively exploit, such as when the Heartbleed bug in OpenSSL allowed attackers to read sensitive information from memory on servers running the vulnerable version.
+**Implications**: 
+- Attacks facilitated by exploiting flaws in third-party components.
+**Solutions**:
+  - Maintain an up-to-date inventory of all components and their versions.
+  - Use tools to continuously monitor for vulnerabilities within these components.
+  - Obtain all components from reliable sources and keep them up-to-date.
+
+### A03:2021 – Injection
+Injection flaws occur when untrusted data is sent to an interpreter as part of a command or query. SQL injection remains one of the most prevalent methods of attack, where attackers input malicious SQL statements into forms or via URL parameters to manipulate database queries and gain unauthorized access to data.
+**Example Vulnerabilities**:
+  - SQL injection.
+  - NoSQL Injection.
+  - Command injection.
+  - LDAP injection.
+**Defensive Strategies**:
+  - Use of prepared statements (with parameterized queries) in SQL and NoSQL calls.
+  - Escaping special characters using the specific escape syntax for that interpreter.
+  - Implementing positive or "allowlist" input validation.
+
+Addressing these vulnerabilities through understanding and implementing best practices is essential for protecting against the dynamic threats in the digital landscape.
+
+## References:
+- Information Security: Course ICI002AS2AE-3005 - Early Autumn 2024: (https://terokarvinen.com/information-security/) (Accessed 24 Aug. 2024).
+- OWASP (2021). A01:2021 – Broken Access Control: (https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (Accessed 24 Aug. 2024).
+- OWASP (2021). A05:2021 – Security Misconfiguration: (https://owasp.org/Top10/A05_2021-Security_Misconfiguration/) (Accessed 24 Aug. 2024).
+- OWASP (2021). A06:2021 – Vulnerable and Outdated Components: (https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/) (Accessed 24 Aug. 2024).
+- OWASP (2021). A03:2021 – Injection: (https://owasp.org/Top10/A03_2021-Injection/) (Accessed 24 Aug. 2024).
