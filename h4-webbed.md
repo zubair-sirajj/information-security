@@ -55,6 +55,19 @@ Injection flaws occur when untrusted data is sent to an interpreter as part of a
 
 Addressing these vulnerabilities through understanding and implementing best practices is essential for protecting against the dynamic threats in the digital landscape.
 
+## a) Goat. Install WebGoat 2023.4
+
+- **Java Installation**: Ensured the Java Runtime Environment was up to date to support running WebGoat, with specific steps to install OpenJDK 17 on Debian-based systems.
+
+- **Downloading WebGoat**: Acquired the latest version of WebGoat by downloading the JAR file from GitHub using `wget`.
+
+- **Launching WebGoat**: Configured and initiated WebGoat on alternative ports to avoid conflicts with other services and to ensure accessibility.
+
+- **Accessing the Application**: Opened WebGoat in a web browser using the specified address to begin the security training sessions.
+![Screenshot_2024-09-12_21-46-49](https://github.com/user-attachments/assets/5b6e54ad-a95d-4614-9547-5c8abcd59003)
+
+
+
 ## References:
 - Information Security: Course ICI002AS2AE-3005 - Early Autumn 2024: (https://terokarvinen.com/information-security/) (Accessed 24 Aug. 2024).
 - OWASP (2021). A01:2021 – Broken Access Control: (https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (Accessed 24 Aug. 2024).
