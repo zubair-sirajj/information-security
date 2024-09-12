@@ -42,7 +42,7 @@ It was second in the Top 10 community survey/ Utilizing components with known vu
 ### A03:2021 – Injection
 Injection flaws occur when untrusted data is sent to an interpreter as part of a command or query. SQL injection remains one of the most prevalent methods of attack, where attackers input malicious SQL statements into forms or via URL parameters to manipulate database queries and gain unauthorized access to data.
 
-**Example Vulnerabilities**:
+**Types of Vulnerabilities**:
   - SQL injection.
   - NoSQL Injection.
   - Command injection.
