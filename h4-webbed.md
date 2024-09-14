@@ -89,10 +89,15 @@ Completed the initial exercises on SQLZoo under "SELECT basics."
 Progressed to the new one and completed "SELECT from World" as well.
 ![Screenshot (254)](https://github.com/user-attachments/assets/6d5232ae-f017-411d-805e-11be617590e4)
 
+## e) Johnny tables. Solve Portswigger Labs:
+
+
 
 ## References:
-- Information Security: Course ICI002AS2AE-3005 - Early Autumn 2024: (https://terokarvinen.com/information-security/) (Accessed 24 Aug. 2024).
-- OWASP (2021). A01:2021 – Broken Access Control: (https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (Accessed 24 Aug. 2024).
-- OWASP (2021). A05:2021 – Security Misconfiguration: (https://owasp.org/Top10/A05_2021-Security_Misconfiguration/) (Accessed 24 Aug. 2024).
-- OWASP (2021). A06:2021 – Vulnerable and Outdated Components: (https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/) (Accessed 24 Aug. 2024).
-- OWASP (2021). A03:2021 – Injection: (https://owasp.org/Top10/A03_2021-Injection/) (Accessed 24 Aug. 2024).
+- Information Security: Course ICI002AS2AE-3005 - Early Autumn 2024: (https://terokarvinen.com/information-security/) (Accessed 12 Sep, 2024).
+- OWASP (2021). A01:2021 – Broken Access Control: (https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (Accessed 12 Sep, 2024).
+- OWASP (2021). A05:2021 – Security Misconfiguration: (https://owasp.org/Top10/A05_2021-Security_Misconfiguration/) (Accessed 12 Sep, 2024).
+- OWASP (2021). A06:2021 – Vulnerable and Outdated Components: (https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/) (Accessed 12 Sep, 2024).
+- OWASP (2021). A03:2021 – Injection: (https://owasp.org/Top10/A03_2021-Injection/) (Accessed 12 Sep, 2024).
+- SQLZoo. "SQL Tutorial." Available at: [SQLZoo SQL Tutorial](https://sqlzoo.net/wiki/SQL_Tutorial). (Accessed on 14 Sep, 2024).
+- Portswigger. "SQL Injection Lab: Retrieve Hidden Data." Available at: [Portswigger SQL Injection Lab](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data). (Accessed on 14 Sep, 2024). 
