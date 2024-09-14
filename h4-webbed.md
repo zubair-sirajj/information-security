@@ -76,7 +76,6 @@ Successfully executed the JavaScript function `webgoat.customjs.phoneHome()` usi
 Identified and selected the correct HTTP request generated in the lesson, which contained a `networkNum` field. Extracted the randomized number from this field, entered it into the provided input field, and received confirmation of correctness.
 ![Screenshot_2024-09-14_20-50-11](https://github.com/user-attachments/assets/dab1dba8-5897-4166-b2c5-a90376d1ea4a)
 
-![Screenshot of Developer Tools Tasks](https://github.com/user-attachments/path_to_your_screenshot)
 
 
 
