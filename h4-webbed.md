@@ -66,7 +66,7 @@ Addressing these vulnerabilities through understanding and implementing best pra
 - **Accessing the Application**: Opened WebGoat in a web browser using the specified address to begin the security training sessions.
 ![Screenshot_2024-09-12_21-46-49](https://github.com/user-attachments/assets/5b6e54ad-a95d-4614-9547-5c8abcd59003)
 
-## b) F12. Solve WebGoat 2023.4: General: Developer Tools
+## b) F12. Solve WebGoat 2023.4: General: Developer Tools:
 
 ### Try It! Using the Console
 Successfully executed the JavaScript function `webgoat.customjs.phoneHome()` using the console in the developer tools. Captured and pasted the randomly generated number as required. The response confirmed the lesson completion.
@@ -77,7 +77,17 @@ Identified and selected the correct HTTP request generated in the lesson, which 
 ![Screenshot_2024-09-14_20-50-11](https://github.com/user-attachments/assets/dab1dba8-5897-4166-b2c5-a90376d1ea4a)
 
 
+## c) Not outdated:
+I have updated the operating system and all applications.
 
+## d) Sequel. Solve SQLZoo:
+### 0 SELECT basics
+Completed the initial exercises on SQLZoo under "SELECT basics." 
+![Screenshot (253)](https://github.com/user-attachments/assets/44c401c0-099a-44ef-ab49-4b32dadb3596)
+
+### 2 SELECT from World
+Progressed to the new one and completed "SELECT from World" as well.
+![Screenshot (254)](https://github.com/user-attachments/assets/6d5232ae-f017-411d-805e-11be617590e4)
 
 
 ## References:
