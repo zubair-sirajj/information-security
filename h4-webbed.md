@@ -90,8 +90,11 @@ Progressed to the new one and completed "SELECT from World" as well.
 ![Screenshot (254)](https://github.com/user-attachments/assets/6d5232ae-f017-411d-805e-11be617590e4)
 
 ## e) Johnny tables. Solve Portswigger Labs:
+### Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+Successfully solved this lab by the following tasks. 
+Started with the base query provided in the lab and then Modified SQL Injection Payload by '' 0r 1=1 --'
 
-
+![Screenshot (261)](https://github.com/user-attachments/assets/7b658070-cfc2-43f5-bf2c-bc4727ff2a00)
 
 ## References:
 - Information Security: Course ICI002AS2AE-3005 - Early Autumn 2024: (https://terokarvinen.com/information-security/) (Accessed 12 Sep, 2024).
