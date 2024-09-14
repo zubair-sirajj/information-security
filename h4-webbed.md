@@ -66,6 +66,19 @@ Addressing these vulnerabilities through understanding and implementing best pra
 - **Accessing the Application**: Opened WebGoat in a web browser using the specified address to begin the security training sessions.
 ![Screenshot_2024-09-12_21-46-49](https://github.com/user-attachments/assets/5b6e54ad-a95d-4614-9547-5c8abcd59003)
 
+## b) F12. Solve WebGoat 2023.4: General: Developer Tools
+
+### Try It! Using the Console
+Successfully executed the JavaScript function `webgoat.customjs.phoneHome()` using the console in the developer tools. Captured and pasted the randomly generated number as required. The response confirmed the lesson completion.
+![Screenshot_2024-09-14_20-44-06](https://github.com/user-attachments/assets/36778bca-72b8-429e-9115-22f6308a676c)
+
+### Try It! Working with the Network Tab
+Identified and selected the correct HTTP request generated in the lesson, which contained a `networkNum` field. Extracted the randomized number from this field, entered it into the provided input field, and received confirmation of correctness.
+![Screenshot_2024-09-14_20-50-11](https://github.com/user-attachments/assets/dab1dba8-5897-4166-b2c5-a90376d1ea4a)
+
+![Screenshot of Developer Tools Tasks](https://github.com/user-attachments/path_to_your_screenshot)
+
+
 
 
 ## References:
