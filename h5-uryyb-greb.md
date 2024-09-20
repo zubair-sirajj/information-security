@@ -44,7 +44,6 @@ The chapter emphasizes that the security of an encryption system should depend o
   - **RSA** is widely used for public-key encryption and digital signatures.
   - **DSA** is another public-key algorithm, used for digital signatures but not encryption.
 
----
 
 ### Karvinen 2023: PGP - Send Encrypted and Signed Message - gpg
 
@@ -92,7 +91,7 @@ This created a file called message.txt.asc, which contained the encrypted versio
 Finally, I decrypted the encrypted message using my private key:
 gpg --decrypt message.txt.asc
 I entered my passphrase, and the original message was successfully decrypted, confirming that the encryption and decryption process worked as intended.
-
+---
 ## b) Password manager, open and cloudless
 
 For this part of the assignment, I needed to choose a password manager that is:
