@@ -96,6 +96,7 @@ This created a file called message.txt.asc, which contained the encrypted versio
 ### Step 4: Decrypting the Message
 Finally, I decrypted the encrypted message using my private key:
 `gpg --decrypt message.txt.asc`  
+
 I entered my passphrase, and the original message was successfully decrypted, confirming that the encryption and decryption process worked as intended.  
 
 ---
