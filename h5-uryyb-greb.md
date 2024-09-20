@@ -82,6 +82,7 @@ This displayed both my public key and my private key.
 ### Step 2: Exporting My Public Key
 To allow others to send me encrypted messages, I exported my public key by using the command:
 `gpg --export --armor --output mypublickey.asc your_email@example.com`  
+
 This created a file named mypublickey.asc that contains my public key in a shareable format.  
 
 ### Step 3: Encrypting a Message
