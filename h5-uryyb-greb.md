@@ -72,42 +72,46 @@ To complete this part of the assignment, I successfully installed **GnuPG** and 
    
   `sudo apt-get update`  
   `sudo apt-get install gnupg`  
-![Screenshot_2024-09-22_00-26-50](https://github.com/user-attachments/assets/93a6e9f6-04e5-4233-ab7b-28dd4e73a28b)  
+  
+![Screenshot_2024-09-22_00-26-50](https://github.com/user-attachments/assets/93a6e9f6-04e5-4233-ab7b-28dd4e73a28b)   
 
 2. **Generated a Keypair:**
-Using the command below, I generated my PGP keypair:
+Using the command below, I generated my PGP keypair:  
 
 `gpg --full-generate-key`  
 
 3. **Exported My Public Key:**  
 After generating the keypair, I exported my public key to a file for sharing with others:  
 
-`gpg --export --armor --output mypublickey.asc fmzubair.siraj@gmail.com`
-![Screenshot_2024-09-22_00-36-12](https://github.com/user-attachments/assets/e01df428-d445-4559-80d8-0710a0a22a43)
+`gpg --export --armor --output mypublickey.asc fmzubair.siraj@gmail.com`  
+
+![Screenshot_2024-09-22_00-36-12](https://github.com/user-attachments/assets/e01df428-d445-4559-80d8-0710a0a22a43)  
+
 
 4. **Encrypted a Message:**
 I created a simple text message:  
-`echo "Secret Message!" > message.txt`  
+`echo "Secret Message!" > message.txt`   
 
-Then, I encrypted the message using my public key:  
-`gpg --encrypt --recipient fmzubair.siraj@gmail.com --armor message.txt`
+Then, I encrypted the message using my public key:    
+`gpg --encrypt --recipient fmzubair.siraj@gmail.com --armor message.txt`  
 
-This produced the encrypted file message.txt.asc.
+This produced the encrypted file message.txt.asc.  
 
-5. **Decrypted the Message:**
-To test the decryption process, I used the following command to decrypt the encrypted message:  
+5. **Decrypted the Message:**  
+To test the decryption process, I used the following command to decrypt the encrypted message:   
 
 `gpg --decrypt message.txt.asc`  
 
 I successfully decrypted the message, confirming that the encryption and decryption process worked.
 
-6. **Exported My Private Key:**
-For backup purposes, I exported my private key and saved it securely:
+6. **Exported My Private Key:**  
+For backup purposes, I exported my private key and saved it securely:  
 
-`gpg --export-secret-keys --armor --output myprivatekey.asc fmzubair.siraj@gmail.com`  
+`gpg --export-secret-keys --armor --output myprivatekey.asc fmzubair.siraj@gmail.com`    
 
-I selected RSA and RSA for the key type, set the key size to 4096 bits, and provided my name and email address for identification.  
-![Screenshot_2024-09-22_00-08-58](https://github.com/user-attachments/assets/c9db1fa8-ff21-4fff-b106-c58f87e72b61)
+I selected RSA and RSA for the key type, set the key size to 4096 bits, and provided my name and email address for identification.   
+
+![Screenshot_2024-09-22_00-08-58](https://github.com/user-attachments/assets/c9db1fa8-ff21-4fff-b106-c58f87e72b61)  
 
 This completed the task of encrypting and decrypting a message using PGP public key cryptography with gnupg.
 
