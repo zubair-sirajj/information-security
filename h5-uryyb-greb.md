@@ -127,19 +127,12 @@ After considering various options, I decided to go with KeePassXC. It is a well-
 I started by downloading KeePassXC from the official website. After downloading the Windows installer, I ran the installation and followed the simple setup process. The tool was installed and ready for use within minutes.
 
 ### Step 2: Setting Up the Database
-Once KeePassXC was installed, I created a new password database by selecting the "Create New Database" option. I chose a secure location on my local machine to store the database file and then set a master password to protect it. The master password is the only password I need to remember, and it encrypts all other passwords stored in the database.
+Once KeePassXC was installed, I created a new password database by selecting the "Create New Database" option. I chose a location on my laptop to store the database file and then set a master password to protect it. The master password is the only password I need to remember, and it encrypts all other passwords stored in the database.
 
 ### Step 3: Storing Passwords
-I added a few test entries by selecting “New Entry” and entering the following information:
-- **Title** (the name of the website or service).
-- **Username**.
-- **Password** (I used KeePassXC’s built-in generator to create strong, random passwords).
-- **Notes** (optional, for additional details like URLs).
+I added a few test entries by selecting “New Entry” and entering the following information: Title, Username, Password, etc.
 
-This process was simple and allowed me to organize my passwords securely.
-
-### Step 4: Using KeePassXC
-Whenever I need to log in to a website or service, I simply open KeePassXC, search for the entry, and copy the password to paste into the login form. KeePassXC stores all my passwords locally in an encrypted database, meaning there’s no reliance on the cloud for password management, ensuring full control over my data.
+Whenever I will need to log in to a website or service, I will simply open KeePassXC, search for the entry, and copy the password to paste into the login form. KeePassXC will store all my passwords locally in an encrypted database, meaning there’s no reliance on the cloud for password management, ensuring full control over my data.
 
 ### Why a Password Manager is Needed
 A password manager like KeePassXC helps protect against:
