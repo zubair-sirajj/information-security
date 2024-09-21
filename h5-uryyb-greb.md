@@ -65,8 +65,10 @@ The example uses two simulated users—Alice and Tero—to demonstrate PGP in ac
 
 ## a) Pretty Good indeed. Encrypt and decrypt a message with 'gnupg', using PGP public key cryptography.
 
-First, I installed gnupg on my system to ensure I had the necessary tool for encryption and decryption. To do this, I ran the following code:
+First, I installed gnupg on my system to ensure I had the necessary tool for encryption and decryption. To do this, I ran the following code:  
+
 `sudo apt-get update`  
+
 `sudo apt-get install gnupg`  
 
 
