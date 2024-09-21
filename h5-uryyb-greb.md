@@ -123,13 +123,13 @@ For this part of the assignment, I needed to choose a password manager that is:
 
 After considering various options, I decided to go with KeePassXC. It is a well-known, open-source password manager that stores passwords locally in an encrypted database, ensuring no data is ever stored in the cloud. This meets all the assignment’s criteria perfectly.
 
-### Step 1: Installing KeePassXC
+**Step 1: Installing KeePassXC**  
 I started by downloading KeePassXC from the official website. After downloading the Windows installer, I ran the installation and followed the simple setup process. The tool was installed and ready for use within minutes.
 
-### Step 2: Setting Up the Database
+**Step 2: Setting Up the Database**  
 Once KeePassXC was installed, I created a new password database by selecting the "Create New Database" option. I chose a location on my laptop to store the database file and then set a master password to protect it. The master password is the only password I need to remember, and it encrypts all other passwords stored in the database.
 
-### Step 3: Storing Passwords
+**Step 3: Storing Passwords**  
 I added a few test entries by selecting “New Entry” and entering the following information: Title, Username, Password, etc.
 
 Whenever I will need to log in to a website or service, I will simply open KeePassXC, search for the entry, and copy the password to paste into the login form. KeePassXC will store all my passwords locally in an encrypted database, meaning there’s no reliance on the cloud for password management, ensuring full control over my data.
