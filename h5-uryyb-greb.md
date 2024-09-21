@@ -72,6 +72,7 @@ To complete this part of the assignment, I successfully installed **GnuPG** and 
    
   `sudo apt-get update`
   `sudo apt-get install gnupg`
+![Screenshot_2024-09-22_00-26-50](https://github.com/user-attachments/assets/93a6e9f6-04e5-4233-ab7b-28dd4e73a28b)
 
 2. **Generated a Keypair:**
 Using the command below, I generated my PGP keypair:
@@ -82,6 +83,7 @@ Using the command below, I generated my PGP keypair:
 After generating the keypair, I exported my public key to a file for sharing with others:  
 
 `gpg --export --armor --output mypublickey.asc fmzubair.siraj@gmail.com`
+![Screenshot_2024-09-22_00-36-12](https://github.com/user-attachments/assets/e01df428-d445-4559-80d8-0710a0a22a43)
 
 4. **Encrypted a Message:**
 I created a simple text message:  
@@ -105,6 +107,7 @@ For backup purposes, I exported my private key and saved it securely:
 `gpg --export-secret-keys --armor --output myprivatekey.asc fmzubair.siraj@gmail.com`  
 
 I selected RSA and RSA for the key type, set the key size to 4096 bits, and provided my name and email address for identification.  
+![Screenshot_2024-09-22_00-08-58](https://github.com/user-attachments/assets/c9db1fa8-ff21-4fff-b106-c58f87e72b61)
 
 This completed the task of encrypting and decrypting a message using PGP public key cryptography with gnupg.
 
