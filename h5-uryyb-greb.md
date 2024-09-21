@@ -70,9 +70,9 @@ To complete this part of the assignment, I successfully installed **GnuPG** and 
 1. **Installed gnupg**:  
    I ensured that **GnuPG** was installed on my system by running:
    
-  `sudo apt-get update`
-  `sudo apt-get install gnupg`
-![Screenshot_2024-09-22_00-26-50](https://github.com/user-attachments/assets/93a6e9f6-04e5-4233-ab7b-28dd4e73a28b)
+  `sudo apt-get update`  
+  `sudo apt-get install gnupg`  
+![Screenshot_2024-09-22_00-26-50](https://github.com/user-attachments/assets/93a6e9f6-04e5-4233-ab7b-28dd4e73a28b)  
 
 2. **Generated a Keypair:**
 Using the command below, I generated my PGP keypair:
