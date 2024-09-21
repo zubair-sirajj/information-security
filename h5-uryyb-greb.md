@@ -141,7 +141,7 @@ Whenever I will need to log in to a website or service, I will simply open KeePa
 ### Why a Password Manager is Needed
 A password manager like KeePassXC helps protect against:
 - **Brute force attacks**: It generates and stores strong, unique passwords for each account.
-- **Phishing attacks**: It ensures I use the correct password for the correct site, minimizing the risk of entering my credentials on fake sites.
+- **Phishing attacks**: It ensures the correct use of password for the correct site, minimizing the risk of entering my credentials on fake sites.
 - **Credential stuffing**: Since each account has a unique password, even if one account is compromised, others remain safe.
 
 KeePassXC provides the perfect solution for securely storing my passwords offline, meeting all the requirements of the assignment for being cloudless, free, and open-source.
