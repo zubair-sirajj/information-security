@@ -65,4 +65,9 @@ $ hashcat -m 0 d595b2086532422bbe654bc07ea030df rockyou.txt --show
 d595b2086532422bbe654bc07ea030df:disobey
 
 
+## References
+
+- Karvinen, T. (2024). *Information Security: Course ICI002AS2AE-3005 - Early Autumn 2024*. Available at: [https://terokarvinen.com/information-security/](https://terokarvinen.com/information-security/) (Accessed 12 Sep, 2024).
+- Schneier, B. (2015). *Applied Cryptography: Protocols, Algorithms, and Source Code in C (2nd ed.)*. Wiley. Available at: [https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003](https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003) (Accessed 12 Sep, 2024).
+- Karvinen, T. (2022). *Cracking Passwords with Hashcat*. Available at: [https://terokarvinen.com/2022/cracking-passwords-with-hashcat/](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/) (Accessed 12 Sep, 2024).
 
