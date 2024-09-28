@@ -27,42 +27,42 @@
 
 #### Install Hashcat:
 First, I updated the package list and installed Hashcat along with the necessary tools.
-$ sudo apt-get update  
-$ sudo apt-get -y install hashid hashcat wget  
+`$ sudo apt-get update  
+$ sudo apt-get -y install hashid hashcat wget  `
 
 #### Create a working directory:
 I then created a new directory to keep the files organized and moved into it.
-$ mkdir hashed  
-$ cd hashed  
+`$ mkdir hashed  
+$ cd hashed  `
 
 #### Download a dictionary:
 Next, I downloaded a popular password dictionary (RockYou) and extracted it for use in cracking the hash.
 
-$ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz  
+`$ wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz  
 $ tar xf rockyou.txt.tar.gz  
-$ rm rockyou.txt.tar.gz  
+$ rm rockyou.txt.tar.gz  `
 
 ## b) Crack this hash: d595b2086532422bbe654bc07ea030df
 ### Step-by-step process:  
 #### Identify the hash type:
 Before cracking the hash, I used hashid to identify the type of the hash. This is important to choose the correct mode for Hashcat.
 
-$ hashid -m d595b2086532422bbe654bc07ea030df  
+`$ hashid -m d595b2086532422bbe654bc07ea030df ` 
 
 #### Run Hashcat to crack the hash:
 After identifying the hash type as MD5, I ran Hashcat to crack the provided hash using the RockYou wordlist.
 
-$ hashcat -m 0 'd595b2086532422bbe654bc07ea030df' rockyou.txt -o solved
+`$ hashcat -m 0 'd595b2086532422bbe654bc07ea030df' rockyou.txt -o solved`
 
 #### Check the result:
 Once Hashcat finished running, I checked the "solved" file to see the cracked password.
-$ cat solved  
-The hash was successfully cracked, and the password is d595b2086532422bbe654bc07ea030df:disobey
+`$ cat solved  `
+The hash was successfully cracked, and the password is `d595b2086532422bbe654bc07ea030df:disobey`
 
 #### Verify the cracking process:
 To ensure the process worked, I could also use the --show option to display the cracked hash directly in the terminal.   
-$ hashcat -m 0 d595b2086532422bbe654bc07ea030df rockyou.txt --show
-d595b2086532422bbe654bc07ea030df:disobey
+`$ hashcat -m 0 d595b2086532422bbe654bc07ea030df rockyou.txt --show`  
+`d595b2086532422bbe654bc07ea030df:disobey`
 
 
 ## References
