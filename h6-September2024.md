@@ -31,6 +31,7 @@ First, I updated the package list and installed Hashcat along with the necessary
 `$ sudo apt-get update  `
 
 `$ sudo apt-get -y install hashid hashcat wget  `
+![Screenshot_2024-09-28_04-53-13](https://github.com/user-attachments/assets/b23c8fd5-41a8-44a7-9d78-e6fbafba7ba9)
 
 #### Create a working directory:
 I then created a new directory to keep the files organized and moved into it.  
@@ -38,6 +39,7 @@ I then created a new directory to keep the files organized and moved into it.
 `$ mkdir hashed  `  
 
 `$ cd hashed  `  
+![Screenshot_2024-09-28_04-56-28](https://github.com/user-attachments/assets/80676dcd-a22f-4284-aed9-11084616dbe6)
 
 #### Download a dictionary:
 Next, I downloaded a popular password dictionary (RockYou) and extracted it for use in cracking the hash.  
@@ -48,6 +50,7 @@ Next, I downloaded a popular password dictionary (RockYou) and extracted it for 
 `$ tar xf rockyou.txt.tar.gz`  
 
 `$ rm rockyou.txt.tar.gz`  
+![Screenshot_2024-09-28_04-57-29](https://github.com/user-attachments/assets/9f5754d8-dfa3-4982-9639-0c78f3ca3837)
 
 
 ## b) Crack this hash: d595b2086532422bbe654bc07ea030df
@@ -56,6 +59,7 @@ Next, I downloaded a popular password dictionary (RockYou) and extracted it for 
 Before cracking the hash, I used hashid to identify the type of the hash. This is important to choose the correct mode for Hashcat.
 
 `$ hashid -m d595b2086532422bbe654bc07ea030df ` 
+![Screenshot_2024-09-28_05-15-42](https://github.com/user-attachments/assets/75313967-a15a-45b5-9447-a09385ea7fb7)
 
 #### Run Hashcat to crack the hash:
 After identifying the hash type as MD5, I ran Hashcat to crack the provided hash using the RockYou wordlist.
@@ -74,6 +78,7 @@ To ensure the process worked, I could also use the --show option to display the 
 `$ hashcat -m 0 d595b2086532422bbe654bc07ea030df rockyou.txt --show`  
 
 `d595b2086532422bbe654bc07ea030df:disobey`  
+![Screenshot_2024-09-28_05-16-38](https://github.com/user-attachments/assets/f39a9fb3-74cd-4488-afd5-dc044efd7f34)
 
 ## References
 
