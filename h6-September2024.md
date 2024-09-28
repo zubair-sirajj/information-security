@@ -27,13 +27,14 @@
 
 #### Install Hashcat:
 First, I updated the package list and installed Hashcat along with the necessary tools.
-`$ sudo apt-get update  
-$ sudo apt-get -y install hashid hashcat wget  `
+`$ sudo apt-get update  `
+
+`$ sudo apt-get -y install hashid hashcat wget  `
 
 #### Create a working directory:
 I then created a new directory to keep the files organized and moved into it.
-`$ mkdir hashed  
-$ cd hashed  `
+`$ mkdir hashed  `
+`$ cd hashed  `
 
 #### Download a dictionary:
 Next, I downloaded a popular password dictionary (RockYou) and extracted it for use in cracking the hash.
