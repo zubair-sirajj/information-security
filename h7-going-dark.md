@@ -45,8 +45,8 @@ I launched the TOR browser by executing:
 
 ## b) Browse TOR network  
 
-I used Ahmia to explore different .onion sites. It’s a search engine built for TOR and focuses entirely on indexing onion sites. I found various categories of sites using it. 
-Onion search engines
+### Onion search engines
+I used Ahmia to explore different .onion sites. It’s a search engine built for TOR and focuses entirely on indexing onion sites. I found various categories of sites using it. I searched for some meme and also some legal tor sites.
 
 Comment: Ahmia was easy to use and made finding onion sites simple. It sticks to safe and legitimate content, which was perfect for my needs.
 
