@@ -33,9 +33,7 @@ I began the process by installing the TOR browser on my Debian system via the te
 
 - **Extracting the File**:  
    I navigated to the `Downloads` folder where I had the TOR browser `.tar.xz` file and ran the following command:  
-
-   `tar -xvJf tor-browser-linux-x86_64-13.5.6.tar.xz`
-  
+   `tar -xvJf tor-browser-linux-x86_64-13.5.6.tar.xz`  
 This successfully extracted the contents into a folder named tor-browser_en-US.
 
 - **Navigating to the Extracted Folder:**  
@@ -62,7 +60,11 @@ I checked out Dread, which is a popular forum on TOR. It's like Reddit but focus
 
 Comment: Dread is a good place to learn about privacy and tech-related issues on TOR, and it provides a space for free, anonymous exchange of ideas.
 
-### Accessing a Well-Known Organization’s Site
-I also accessed ProPublica's .onion site. They’re a journalism organization that mirrors their website on TOR to make it accessible to people in countries with internet restrictions.
+### Accessing a Well-Known Organization’s Site  
+After several attempts to load different .onion sites, I successfully accessed the BBC’s TOR mirror, which provides access to its news platform. The BBC offers this mirror to ensure that users in countries with restricted internet access can still access unbiased news.  
 
-Comment: ProPublica shows the positive side of TOR, providing free access to critical journalism in places where news is heavily censored.
+The onion URL I used to access the site was: [BBC News: http://bbcnewsv2vjtpsuy.onion/](http://deepweb4epga7mkmlku53op47jinc3mzwudmruixr6gvra3xqqnlhwad.onion/catalog/bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion)  
+
+BBC’s Physical Address: Broadcasting House, Portland Place, London W1A 1AA, United Kingdom  
+
+Comment: The BBC’s TOR mirror is a great example of how legitimate organizations use TOR to provide free access to information in regions where traditional internet access is limited or censored. It highlights the positive use of TOR for journalism and information sharing.
