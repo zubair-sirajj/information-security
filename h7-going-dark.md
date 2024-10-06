@@ -63,7 +63,7 @@ Comment: Dread is a good place to learn about privacy and tech-related issues on
 ### Accessing a Well-Known Organization’s Site  
 After several attempts to load different .onion sites, I successfully accessed the BBC’s TOR mirror, which provides access to its news platform. The BBC offers this mirror to ensure that users in countries with restricted internet access can still access unbiased news.  
 
-The onion URL I used to access the site was: [BBC News: http://bbcnewsv2vjtpsuy.onion/](http://deepweb4epga7mkmlku53op47jinc3mzwudmruixr6gvra3xqqnlhwad.onion/catalog/bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion)  
+The onion URL I used to access the site was: http://deepweb4epga7mkmlku53op47jinc3mzwudmruixr6gvra3xqqnlhwad.onion/catalog/bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion
 
 BBC’s Physical Address: Broadcasting House, Portland Place, London W1A 1AA, United Kingdom  
 
