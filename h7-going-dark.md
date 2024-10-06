@@ -46,24 +46,36 @@ I launched the TOR browser by executing:
 ## b) Browse TOR network  
 
 ### Onion search engines
-I used Ahmia to explore different .onion sites. It’s a search engine built for TOR and focuses entirely on indexing onion sites. I found various categories of sites using it. I searched for some meme and also some legal tor sites.
+I used Ahmia to explore different .onion sites. It’s a search engine built for TOR and focuses entirely on indexing onion sites. I found various categories of sites using it. I searched for some meme and also some legal tor sites.  
+
+![1](https://github.com/user-attachments/assets/413ea3b4-6697-4e4e-a368-1a54013fb2c2)  
+![2](https://github.com/user-attachments/assets/f82dde37-5f16-416b-82a9-9241fce8cc36)  
+![3](https://github.com/user-attachments/assets/7c0c1a87-1c25-41ca-9f47-92fc1101fd91)  
+![4](https://github.com/user-attachments/assets/f0e552f5-f67b-4ddd-b11c-5428c3204787)    
 
 Comment: Ahmia was easy to use and made finding onion sites simple. It sticks to safe and legitimate content, which was perfect for my needs.
 
 ### Visiting a Marketplace
-Through Ahmia, I came across Black Ops Market. It seemed to deal with digital services but had some questionable listings. 
+Through Ahmia, I came across Black Ops Market. It seemed to deal with digital services but had some questionable listings.   
+![5](https://github.com/user-attachments/assets/31ff5d51-dcf8-44c3-bee8-c408cc5427cc)  
+![6](https://github.com/user-attachments/assets/90199c4a-d8db-496b-b8b0-7b1aa108cb65)    
 
 Comment: Marketplaces on TOR show both sides—some legal, some not. The anonymity on TOR makes it a space for all kinds of commerce, so it's important to be cautious.
 
 ### Exploring a Forum
-I checked out Dread, which is a popular forum on TOR. It's like Reddit but focuses a lot on privacy and security. People discuss topics like encryption, staying anonymous online, and related tech.
+I checked out Dread, which is a popular forum on TOR. It's like Reddit but focuses a lot on privacy and security. People discuss topics like encryption, staying anonymous online, and related tech.  
+
+![7](https://github.com/user-attachments/assets/d2610210-ace3-495e-a3fe-6ab9ecd7100d)   
+![8](https://github.com/user-attachments/assets/9af5fabc-ec0c-49de-9d3d-170e4aeb2944)  
 
 Comment: Dread is a good place to learn about privacy and tech-related issues on TOR, and it provides a space for free, anonymous exchange of ideas.
 
 ### Accessing a Well-Known Organization’s Site  
 After several attempts to load different .onion sites, I successfully accessed the BBC’s TOR mirror, which provides access to its news platform. The BBC offers this mirror to ensure that users in countries with restricted internet access can still access unbiased news.  
 
-The onion URL I used to access the site was: http://deepweb4epga7mkmlku53op47jinc3mzwudmruixr6gvra3xqqnlhwad.onion/catalog/bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion
+The onion URL I used to access the site was: http://deepweb4epga7mkmlku53op47jinc3mzwudmruixr6gvra3xqqnlhwad.onion/catalog/bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion  
+
+![9](https://github.com/user-attachments/assets/a1d5b9e6-2fe6-4109-9cf2-4bf2029cd0dc)  
 
 BBC’s Physical Address: Broadcasting House, Portland Place, London W1A 1AA, United Kingdom  
 
