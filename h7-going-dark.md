@@ -28,44 +28,40 @@
 
 ---
 
-## Installing the TOR Browser Using the Terminal
-
+## a) Install TOR browser and access TOR network 
 I began the process by installing the TOR browser on my Debian system via the terminal. Here’s the detailed process:
 
 - **Extracting the File**:  
-   I navigated to the `Downloads` folder where I had the TOR browser `.tar.xz` file and ran the following command:
+   I navigated to the `Downloads` folder where I had the TOR browser `.tar.xz` file and ran the following command:  
 
-   ```bash
-   tar -xvJf tor-browser-linux-x86_64-13.5.6.tar.xz
+   `tar -xvJf tor-browser-linux-x86_64-13.5.6.tar.xz`
 This successfully extracted the contents into a folder named tor-browser_en-US.
 
-- Navigating to the Extracted Folder:
-I moved into the newly created folder:
-cd tor-browser_en-US/
-- Running the TOR Browser:
+- **Navigating to the Extracted Folder:**  
+I moved into the newly created folder:   
+`cd tor-browser_en-US/  `
+- **Running the TOR Browser:**  
 I launched the TOR browser by executing:
-./start-tor-browser.desktop
+`./start-tor-browser.desktop`
 
-Using Ahmia to Search for Onion Sites
-I used Ahmia to explore different .onion sites. It’s a search engine built for TOR and focuses entirely on indexing onion sites. I found various categories of sites using it, including:
+## b) Browse TOR network  
 
+I used Ahmia to explore different .onion sites. It’s a search engine built for TOR and focuses entirely on indexing onion sites. I found various categories of sites using it. 
 Onion search engines
-Marketplaces
-Forums
-Well-known organizations’ sites
+
 Comment: Ahmia was easy to use and made finding onion sites simple. It sticks to safe and legitimate content, which was perfect for my needs.
 
-Visiting a Marketplace
-Through Ahmia, I came across Black Ops Market. It seemed to deal with digital services but had some questionable listings. I decided to stay clear of that for safety.
+### Visiting a Marketplace
+Through Ahmia, I came across Black Ops Market. It seemed to deal with digital services but had some questionable listings. 
 
 Comment: Marketplaces on TOR show both sides—some legal, some not. The anonymity on TOR makes it a space for all kinds of commerce, so it's important to be cautious.
 
-Exploring a Forum
+### Exploring a Forum
 I checked out Dread, which is a popular forum on TOR. It's like Reddit but focuses a lot on privacy and security. People discuss topics like encryption, staying anonymous online, and related tech.
 
 Comment: Dread is a good place to learn about privacy and tech-related issues on TOR, and it provides a space for free, anonymous exchange of ideas.
 
-Accessing a Well-Known Organization’s Site
+### Accessing a Well-Known Organization’s Site
 I also accessed ProPublica's .onion site. They’re a journalism organization that mirrors their website on TOR to make it accessible to people in countries with internet restrictions.
 
 Comment: ProPublica shows the positive side of TOR, providing free access to critical journalism in places where news is heavily censored.
