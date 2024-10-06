@@ -35,14 +35,15 @@ I began the process by installing the TOR browser on my Debian system via the te
    I navigated to the `Downloads` folder where I had the TOR browser `.tar.xz` file and ran the following command:  
 
    `tar -xvJf tor-browser-linux-x86_64-13.5.6.tar.xz`
+  
 This successfully extracted the contents into a folder named tor-browser_en-US.
 
 - **Navigating to the Extracted Folder:**  
 I moved into the newly created folder:   
-`cd tor-browser_en-US/  `
+`cd tor-browser_en-US/  `  
 - **Running the TOR Browser:**  
-I launched the TOR browser by executing:
-`./start-tor-browser.desktop`
+I launched the TOR browser by executing:  
+`./start-tor-browser.desktop`  
 
 ## b) Browse TOR network  
 
