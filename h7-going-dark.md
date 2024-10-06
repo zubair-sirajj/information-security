@@ -80,3 +80,12 @@ The onion URL I used to access the site was: http://deepweb4epga7mkmlku53op47jin
 BBC’s Physical Address: Broadcasting House, Portland Place, London W1A 1AA, United Kingdom  
 
 Comment: The BBC’s TOR mirror is a great example of how legitimate organizations use TOR to provide free access to information in regions where traditional internet access is limited or censored. It highlights the positive use of TOR for journalism and information sharing.
+
+
+## References
+
+- Karvinen, T. (2024). Information Security: Course ICI002AS2AE-3005 - Early Autumn 2024. Available at: https://terokarvinen.com/information-security/ (Accessed 5 Oct, 2024).
+
+- Quintin, C. (2014). 7 Things You Should Know About TOR. Available at: https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor (Accessed 5 Oct, 2024).
+
+- Shavers, R. & Bair, A. (2016). Hiding Behind the Keyboard: The Tor Browser. Available at: https://www.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0010 (Accessed 5 Oct, 2024).
